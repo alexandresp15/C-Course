@@ -11,7 +11,7 @@
     scanf("%lf", &altura);
 
     area = base * altura;
-    perimetro = (base + altura)*2;
+    perimetro = (base + altura) * 2;
     diagonal = sqrt(pow(base, 2.0) + pow(altura, 2.0));
     
     printf("AREA = %.4lf\n", area);
