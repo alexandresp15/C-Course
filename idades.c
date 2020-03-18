@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int main() {
-
     char nome1[11], nome2[11];
     int idade1, idade2;
     double media;
