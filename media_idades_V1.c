@@ -5,20 +5,20 @@ int main() {
     double media;
 
     printf("Digite as idades:\n");
-    scanf("%d", &idade);
-    
+    scanf("%d", &idade); 
+
     media = 0.0;
     cont = 0;
     if (idade >= 0) {
         while (idade >= 0) {
             media = media + idade;
-            cont++;
+            cont = cont + 1;
             scanf("%d", &idade);
         }
         media = media / cont;
-        printf("MEDIA %.2lf\n", media);
+        printf("MEDIA = %.2lf\n", media);
     }
-    else {
+    else { 
         printf("IMPOSSIVEL CALCULAR\n");
     }
     return 0;

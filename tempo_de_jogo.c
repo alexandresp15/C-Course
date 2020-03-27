@@ -8,7 +8,7 @@ int main() {
     printf("Hora final: ");
     scanf("%d", &horaFim);
 
-    if (horaIni >= horaFim || horaIni == horaFim) {
+    if (horaIni >= horaFim){
         duracao = (24 - horaIni) + horaFim;
     }
     else {
